@@ -1,0 +1,66 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv_edge/
+venv/
+env/
+ENV/
+
+# YOLOv5 캐시 및 다운로드 모델
+yolov5/
+*.pt
+*.weights
+runs/
+weights/
+
+# 감지된 이미지 저장 폴더
+detected/
+screenshots/
+*.jpg
+*.png
+*.jpeg
+
+# 로그 파일
+*.log
+*.out
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.ckpt

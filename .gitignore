@@ -1,0 +1,101 @@
+# ==================== Python ====================
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment (중요!)
+venv/
+venv_edge/
+env/
+ENV/
+env.bak/
+venv.bak/
+**/venv/
+**/venv_edge/
+
+# ==================== Django ====================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+*.pot
+
+# ==================== Edge System ====================
+# YOLOv5 캐시
+yolov5/
+*.pt
+*.weights
+runs/
+weights/
+torch/
+
+# 감지된 이미지
+detected/
+screenshots/
+*.jpg
+*.png
+*.jpeg
+
+# ==================== Android ====================
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+.gradle/
+**/build/
+*.iml
+.idea/
+local.properties
+*.jks
+*.keystore
+.externalNativeBuild
+.cxx/
+google-services.json
+
+# ==================== OS ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==================== IDE ====================
+.vscode/
+*.code-workspace
+*.iws
+
+# ==================== 대용량 파일 ====================
+# PyTorch 라이브러리 (용량 큼)
+**/site-packages/torch/
+**/site-packages/torchvision/
+*.dylib
+*.so.*
+
+# ==================== 임시 파일 ====================
+*.swp
+*.swo
+*~
+.tmp/
+temp/
