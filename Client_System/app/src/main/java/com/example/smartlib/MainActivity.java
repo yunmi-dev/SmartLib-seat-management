@@ -18,7 +18,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     // 로컬 테스트용
-    private static final String API_URL = "http://10.0.2.2:8000/api_root/Seat/";
+    private static final String API_URL = "https://jeongyunmi2002.pythonanywhere.com/api_root/Seat/";
     // PythonAnywhere 배포 후: "https://yunmee2765.pythonanywhere.com/api_root/Seat/";
 
     private GridView gridViewSeats;
